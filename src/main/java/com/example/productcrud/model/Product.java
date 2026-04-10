@@ -21,10 +21,11 @@ public class Product {
     private Category category;
 
     private long price;
-
     private int stock;
+
     @Column(columnDefinition = "TEXT")
     private String description;
+
     private boolean active;
 
 
